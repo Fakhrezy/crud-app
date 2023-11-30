@@ -14,11 +14,12 @@ class MahasiswaController extends Controller
      */
     public function index()
     {
-        //mengambil data dari tabel mahasiswa
-        $mahasiswa = DB::table('mahasiswa')->get();
+        // //mengambil data dari tabel mahasiswa
+        // $mahasiswa = DB::table('mahasiswa')->get();
 
-        //mengirim data mahasiswa ke view indeks
-        return view('index', ['mahasiswa' => $mahasiswa]);
+        // //mengirim data mahasiswa ke view indeks
+        // return view('index', ['mahasiswa' => $mahasiswa]);
+        return'ini siswa';
     }
 
     /**
