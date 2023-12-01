@@ -14,10 +14,10 @@ use App\Http\Controllers\MahasiswaController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 Route::get('/', 'MahasiswaController@index');
 
-// Route::get('/mahasiswa', [MahasiswaController::class,'index']);
-// Route::get('/mahasiswa/tambah',[MahasiswaController::class,'tambah']);
+Route::get('/mahasiswa', [MahasiswaController::class,'index']);
+Route::get('/mahasiswa/tambah',[MahasiswaController::class,'tambah']);
